@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Pixeboy";
+  src: local("Pixeboy"), url("./assets/fonts/Pixeboy-z8XGD.ttf") format("truetype");
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+  font-family: Pixeboy, serif !important;
+  font-weight: bold;
+}
+
+code, button {
+  font-family: Pixeboy, serif;
+  font-weight: bold;
+}
+
+html, body, #root, .App {
+  margin: 0;
+  height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  html, body, #root, .App {
+    height: 100%;
+    display: block;
+  }
+}

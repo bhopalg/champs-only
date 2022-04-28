@@ -1,0 +1,16 @@
+.App {
+  background-image: url("assets/images/champs.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  webkit-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  display: inline-table;
+}
+
+
+.Mobile-App {
+  padding-bottom: 3em;
+}

@@ -1,0 +1,154 @@
+.staking-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10em;
+    margin-top: 2em;
+    position: relative;
+}
+
+.balance-container {
+    position: absolute;
+    right: 1%;
+    text-align: right;
+}
+
+.unstaked, .staked, .staking-middle {
+    flex: 1 1 100%;
+    max-width: 10%;
+}
+
+.staking-middle, .staking-middle div {
+    display: flex;
+    flex-direction: column;
+    gap: 2em 2em;
+}
+
+.staking-middle div button {
+    padding: 1em 0;
+    background: rgba(189, 121, 57, 0.8);
+    color: #fff;
+    box-shadow: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    border: 3px solid rgb(252, 216, 69);
+    font-size: 1.5em;
+}
+
+.unstaked, .staked {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1em 1em;
+    flex-wrap: wrap;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+    border: 8px solid #000000;
+}
+
+.unstaked h1, .staked h1 {
+    color: #ffffff;
+    font-size: 2.2em;
+}
+
+.unstaked-image-container, .staked-image-container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1em 1em;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: start;
+    margin-bottom: 25%;
+}
+
+.unstaked img, .staked img {
+    flex: 1 1 100%;
+    max-width: 25%;
+}
+
+.staking-middle img {
+    margin-top: 10%;
+}
+
+.staking-middle button:nth-child(3) {
+    margin-bottom: 10%;
+}
+
+.balance-container {
+    flex-direction: column;
+}
+
+.balance-container h2 {
+    color: rgb(246, 204, 70);
+}
+
+.balance-container h2 span {
+    color: #ffffff;
+}
+
+.mobile-staking-container .staking-middle {
+    order: 1;
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    width: 100%;
+    max-width: 50%;
+    align-items: center;
+}
+
+.mobile-staking-container .staked {
+    order: 3;
+    -webkit-box-ordinal-group: 3;
+    -moz-box-ordinal-group: 3;
+    -ms-flex-order: 3;
+    -webkit-order: 3;
+    max-width: 100%;
+    width: 80%;
+}
+
+.mobile-staking-container .unstaked {
+    order: 2;
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    max-width: 100%;
+}
+
+.mobile-staking-container .staking-middle div {
+    flex-direction: column;
+}
+
+.mobile-staking-container {
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    gap: 2em;
+}
+
+.mobile-staking-container .staking-middle div button {
+    flex: 1 1 100%;
+}
+
+.mobile-staking-container .staking-middle div {
+    width: 100%;
+}
+
+.mobile-staking-container .balance-container {
+    position: relative;
+}
+
+.mobile-staking-container .alpha-container {
+    flex-direction: column !important;
+    gap: 2em !important;
+    padding: 0 10px;
+}
+
+.mobile-staking-container .alpha-container button:nth-child(3) {
+    margin-bottom: 10%;
+}
+
+.mobile-staking-container .balance-container {
+    text-align: center;
+}

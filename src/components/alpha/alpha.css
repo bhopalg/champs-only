@@ -1,0 +1,26 @@
+.alpha-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10em;
+    margin-top: 2em;
+}
+
+.alpha-container button {
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0.8% 2.5%;
+    border: 3px solid rgb(200, 110, 59);
+    font-size: 2em;
+    background: -webkit-linear-gradient(rgb(200, 110, 59), rgb(246, 200, 69));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mobile-alpha-container {
+    flex-direction: column;
+    gap: 2em;
+    margin: 1em;
+}
